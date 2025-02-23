@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>每周大学习——学习CSS</title>
+      <title>每周大学习——CSS核心语法与选择器深度解析</title>
       <link href="/posts/12745d0d.html"/>
       <url>/posts/12745d0d.html</url>
       
@@ -15,16 +15,20 @@
           
           <category> 每周大学习 </category>
           
-          <category> CSS </category>
+          <category> 前端技术 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 每周大学习 </tag>
+            <tag> CSS基础 </tag>
             
-            <tag> CSS </tag>
+            <tag> 样式表开发 </tag>
+            
+            <tag> 前端布局 </tag>
+            
+            <tag> 选择器详解 </tag>
             
         </tags>
       
@@ -33,36 +37,7 @@
     
     
     <entry>
-      <title>青年大学习——电脑基本操作</title>
-      <link href="/posts/6d155fd1.html"/>
-      <url>/posts/6d155fd1.html</url>
-      
-        <content type="html"><![CDATA[<p><strong><em>学习新思想，争做新青年，欢迎收看本期的青年大学习</em></strong></p><hr><h2 id="基础">基础</h2><p>本期的青年大学习就来教大家如何通过计算机一级的基本操作题，主要是不知道该更新什么内容好了，就随便写一个计算机一级的专题来水一下<br>我们先来看看部分的历年的基本操作题<br><img src="https://tuchuang.voooe.cn/images/2024/11/13/4.png" alt="1"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/5.png" alt="2"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/1.png" alt="3"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/2.png" alt="4"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/3.png" alt="5"></p><p>可以看出基本操作题是由五道小题组成，可以基本分成这几类，分别是：<strong>创建</strong>、<strong>命名</strong>、<strong>移动</strong>、<strong>删除</strong>、<strong>复制</strong>、<strong>更改属性</strong><br>这几个操作非常的简单，只要你稍微懂一下电脑，就能够轻松的完成了</p><ul><li>创建：在桌面上右键，选择新建，然后选择对应的类型，例如新建文件夹，新建文本文档，新建图片等，创建完成之后，就可以在桌面上看到对应的文件了</li><li>命名：在桌面上右键，选择重命名，然后输入新的名字，然后点击确定，即可完成命名</li><li>移动：在桌面上按住左键，然后拖动到目标文件夹，然后删除源文件，即可完成移动</li><li>删除：在桌面上右键，然后点击删除，即可完成删除</li><li>复制：在桌面上右键，然后点击复制，即可完成复制</li><li>更改属性：在桌面上右键，选择属性，然后点击只读或者隐藏，即可完成更改属性</li></ul><p>有的人会觉得很麻烦，那有没有什么更简单的方法呢？<br>那就要用到快捷键了，要使用快捷键的话，就要先把输入法切换到英文模式</p><ul><li>创建：按住<code>ctrl+shift+n</code>，即可完成创建一个文件夹</li><li>命名：在需要进行重命名的文件上左键，然后<code>F2</code>，即可完成重命名</li><li>移动：在需要进行移动的文件上左键，然后<code>ctrl+x</code>，然后进入目标文件夹，然后<code>ctrl+v</code>，即可完成移动</li><li>删除：在需要进行删除的文件上左键，然后<code>delete</code>，即可完成删除</li><li>复制：在需要进行复制的文件上左键，然后<code>ctrl+c</code>，然后进入到目标文件夹，然后<code>ctrl+v</code>，即可完成复制</li><li>更改属性：在需要进行更改的文件上左键，然后<code>alt+enter</code>，即可完成更改属性</li></ul><h2 id="拓展">拓展</h2><p>除了以上这些快捷键，还有其他一些常用的快捷键<br>基础快捷键：</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left"><code>F1</code></td><td style="text-align:right">帮助</td></tr><tr><td style="text-align:left"><code>F2</code></td><td style="text-align:right">重命名</td></tr><tr><td style="text-align:left"><code>F3</code></td><td style="text-align:right">搜索</td></tr><tr><td style="text-align:left"><code>F4</code></td><td style="text-align:right">地址</td></tr><tr><td style="text-align:left"><code>F5</code></td><td style="text-align:right">刷新</td></tr><tr><td style="text-align:left"><code>F6</code></td><td style="text-align:right">切换</td></tr><tr><td style="text-align:left"><code>F11</code></td><td style="text-align:right">全屏</td></tr></tbody></table><p><code>ctrl+</code>组合键</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left">a</td><td style="text-align:right">全选</td></tr><tr><td style="text-align:left">c</td><td style="text-align:right">复制</td></tr><tr><td style="text-align:left">x</td><td style="text-align:right">剪切</td></tr><tr><td style="text-align:left">v</td><td style="text-align:right">粘贴</td></tr><tr><td style="text-align:left">z</td><td style="text-align:right">撤销</td></tr><tr><td style="text-align:left">y</td><td style="text-align:right">重做</td></tr><tr><td style="text-align:left">n</td><td style="text-align:right">新建</td></tr><tr><td style="text-align:left">o</td><td style="text-align:right">打开</td></tr><tr><td style="text-align:left">p</td><td style="text-align:right">打印</td></tr><tr><td style="text-align:left">s</td><td style="text-align:right">保存</td></tr><tr><td style="text-align:left">h</td><td style="text-align:right">替换</td></tr><tr><td style="text-align:left">e</td><td style="text-align:right">搜索</td></tr><tr><td style="text-align:left">f</td><td style="text-align:right">查找</td></tr></tbody></table><p><code>win+</code>组合键</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left">d</td><td style="text-align:right">显示桌面</td></tr><tr><td style="text-align:left">l</td><td style="text-align:right">锁定屏幕</td></tr><tr><td style="text-align:left">s</td><td style="text-align:right">打开搜索</td></tr><tr><td style="text-align:left">tab</td><td style="text-align:right">切换视图</td></tr></tbody></table><p>等等，还有其他一些其他的快捷键，就不一一列举了，大家可以自行搜索<br>也是把本期的青年大学习给水完了</p><hr><p>本期的青年大学习就到这里结束了，谢谢大家的游览</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 青年大学习 </category>
-          
-          <category> 计算机一级 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 青年大学习 </tag>
-            
-            <tag> 计算机一级 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>每周大学习——搭建你的第一个网页</title>
+      <title>每周大学习——手把手构建新闻网站：HTML实战教程</title>
       <link href="/posts/e172d25e.html"/>
       <url>/posts/e172d25e.html</url>
       
@@ -73,16 +48,20 @@
           
           <category> 每周大学习 </category>
           
-          <category> HTML </category>
+          <category> 前端技术 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 每周大学习 </tag>
+            <tag> 前端开发 </tag>
             
-            <tag> HTML </tag>
+            <tag> HTML实战 </tag>
+            
+            <tag> 网页布局 </tag>
+            
+            <tag> 新闻网站 </tag>
             
         </tags>
       
@@ -91,7 +70,38 @@
     
     
     <entry>
-      <title>每周大学习——学习HTML</title>
+      <title>青年大学习——电脑基础操作与快捷键全攻略</title>
+      <link href="/posts/6d155fd1.html"/>
+      <url>/posts/6d155fd1.html</url>
+      
+        <content type="html"><![CDATA[<p><strong><em>学习新思想，争做新青年，欢迎收看本期的青年大学习</em></strong></p><hr><h2 id="基础">基础</h2><p>本期的青年大学习就来教大家如何通过计算机一级的基本操作题，主要是不知道该更新什么内容好了，就随便写一个计算机一级的专题来水一下<br>我们先来看看部分的历年的基本操作题<br><img src="https://tuchuang.voooe.cn/images/2024/11/13/4.png" alt="1"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/5.png" alt="2"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/1.png" alt="3"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/2.png" alt="4"><br><img src="https://tuchuang.voooe.cn/images/2024/11/13/3.png" alt="5"></p><p>可以看出基本操作题是由五道小题组成，可以基本分成这几类，分别是：<strong>创建</strong>、<strong>命名</strong>、<strong>移动</strong>、<strong>删除</strong>、<strong>复制</strong>、<strong>更改属性</strong><br>这几个操作非常的简单，只要你稍微懂一下电脑，就能够轻松的完成了</p><ul><li>创建：在桌面上右键，选择新建，然后选择对应的类型，例如新建文件夹，新建文本文档，新建图片等，创建完成之后，就可以在桌面上看到对应的文件了</li><li>命名：在桌面上右键，选择重命名，然后输入新的名字，然后点击确定，即可完成命名</li><li>移动：在桌面上按住左键，然后拖动到目标文件夹，然后删除源文件，即可完成移动</li><li>删除：在桌面上右键，然后点击删除，即可完成删除</li><li>复制：在桌面上右键，然后点击复制，即可完成复制</li><li>更改属性：在桌面上右键，选择属性，然后点击只读或者隐藏，即可完成更改属性</li></ul><p>有的人会觉得很麻烦，那有没有什么更简单的方法呢？<br>那就要用到快捷键了，要使用快捷键的话，就要先把输入法切换到英文模式</p><ul><li>创建：按住<code>ctrl+shift+n</code>，即可完成创建一个文件夹</li><li>命名：在需要进行重命名的文件上左键，然后<code>F2</code>，即可完成重命名</li><li>移动：在需要进行移动的文件上左键，然后<code>ctrl+x</code>，然后进入目标文件夹，然后<code>ctrl+v</code>，即可完成移动</li><li>删除：在需要进行删除的文件上左键，然后<code>delete</code>，即可完成删除</li><li>复制：在需要进行复制的文件上左键，然后<code>ctrl+c</code>，然后进入到目标文件夹，然后<code>ctrl+v</code>，即可完成复制</li><li>更改属性：在需要进行更改的文件上左键，然后<code>alt+enter</code>，即可完成更改属性</li></ul><h2 id="拓展">拓展</h2><p>除了以上这些快捷键，还有其他一些常用的快捷键<br>基础快捷键：</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left"><code>F1</code></td><td style="text-align:right">帮助</td></tr><tr><td style="text-align:left"><code>F2</code></td><td style="text-align:right">重命名</td></tr><tr><td style="text-align:left"><code>F3</code></td><td style="text-align:right">搜索</td></tr><tr><td style="text-align:left"><code>F4</code></td><td style="text-align:right">地址</td></tr><tr><td style="text-align:left"><code>F5</code></td><td style="text-align:right">刷新</td></tr><tr><td style="text-align:left"><code>F6</code></td><td style="text-align:right">切换</td></tr><tr><td style="text-align:left"><code>F11</code></td><td style="text-align:right">全屏</td></tr></tbody></table><p><code>ctrl+</code>组合键</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left">a</td><td style="text-align:right">全选</td></tr><tr><td style="text-align:left">c</td><td style="text-align:right">复制</td></tr><tr><td style="text-align:left">x</td><td style="text-align:right">剪切</td></tr><tr><td style="text-align:left">v</td><td style="text-align:right">粘贴</td></tr><tr><td style="text-align:left">z</td><td style="text-align:right">撤销</td></tr><tr><td style="text-align:left">y</td><td style="text-align:right">重做</td></tr><tr><td style="text-align:left">n</td><td style="text-align:right">新建</td></tr><tr><td style="text-align:left">o</td><td style="text-align:right">打开</td></tr><tr><td style="text-align:left">p</td><td style="text-align:right">打印</td></tr><tr><td style="text-align:left">s</td><td style="text-align:right">保存</td></tr><tr><td style="text-align:left">h</td><td style="text-align:right">替换</td></tr><tr><td style="text-align:left">e</td><td style="text-align:right">搜索</td></tr><tr><td style="text-align:left">f</td><td style="text-align:right">查找</td></tr></tbody></table><p><code>win+</code>组合键</p><table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:right">作用</th></tr></thead><tbody><tr><td style="text-align:left">d</td><td style="text-align:right">显示桌面</td></tr><tr><td style="text-align:left">l</td><td style="text-align:right">锁定屏幕</td></tr><tr><td style="text-align:left">s</td><td style="text-align:right">打开搜索</td></tr><tr><td style="text-align:left">tab</td><td style="text-align:right">切换视图</td></tr></tbody></table><p>等等，还有其他一些其他的快捷键，就不一一列举了，大家可以自行搜索<br>也是把本期的青年大学习给水完了</p><hr><p>本期的青年大学习就到这里结束了，谢谢大家的游览</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 青年大学习 </category>
+          
+          <category> 计算机技能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机基础 </tag>
+            
+            <tag> 文件管理 </tag>
+            
+            <tag> 快捷键应用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每周大学习——HTML基础入门与标签详解</title>
       <link href="/posts/cb98354b.html"/>
       <url>/posts/cb98354b.html</url>
       
@@ -102,16 +112,18 @@
           
           <category> 每周大学习 </category>
           
-          <category> HTML </category>
+          <category> 前端技术 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 每周大学习 </tag>
+            <tag> 前端开发 </tag>
             
-            <tag> HTML </tag>
+            <tag> HTML基础 </tag>
+            
+            <tag> 网页制作 </tag>
             
         </tags>
       
@@ -120,7 +132,7 @@
     
     
     <entry>
-      <title>青年大学习——速通GitHub</title>
+      <title>青年大学习——GitHub快速入门与资源管理实战</title>
       <link href="/posts/625c7901.html"/>
       <url>/posts/625c7901.html</url>
       
@@ -131,20 +143,18 @@
           
           <category> 青年大学习 </category>
           
-          <category> Github </category>
-          
-          <category> git </category>
+          <category> 开发工具 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 青年大学习 </tag>
+            <tag> GitHub教程 </tag>
             
-            <tag> Github </tag>
+            <tag> Git命令 </tag>
             
-            <tag> git </tag>
+            <tag> 开源资源管理 </tag>
             
         </tags>
       
@@ -157,7 +167,7 @@
       <link href="/posts/f7bbbd1c.html"/>
       <url>/posts/f7bbbd1c.html</url>
       
-        <content type="html"><![CDATA[<h1><strong>[神运]无上今绝·无敌</strong></h1><p><img src="https://img4.a0bi.com/upload/articleResource/20241203/1733229426377.png" alt="1"></p><p><strong>无敌的锋刀，将穿破一切！在他的面前，无论多么强大的敌人都将颤抖，无论多么深重的黑暗都将被驱逐！</strong></p><h2 id="简介">简介</h2><p>职业：</p><ul><li>基础职业：神攻</li><li>特技职业：神通灵师</li></ul><p>属性：神光</p><p>技能：</p><ul><li><p>普通技：无上止戈帝刹（超物攻）<br>出手前，令所有攻击目标获得 2 层<span class='nota' data-nota='[崩甲]：降低超物防、超魔防 10%，非负面，可叠加 6 层'>崩甲</span>；攻击 2 位精灵，造成 100%伤害</p></li><li><p>超杀技：君临万界神诀（超物攻）<br>出手前，令所有攻击目标获得 2 层<span class='nota' data-nota='[崩甲]：降低超物防、超魔防 10%，非负面，可叠加 6 层'>崩甲</span>；攻击 3 位精灵，造成 100%伤害</p></li><li><p>通灵技：裁决审判终末<br>每集齐 8 点通灵之魂，触发通灵：解除初级负面效果、控制技、无法回血效果，恢复满血并化身为通灵形态，然后立刻出手 1 次；<br>通灵之魂收集方式：</p><ol><li>已阵每只精灵首次死亡后，获得 2 点通灵之魂；</li><li>已阵精灵出手后，每有 1 个出手目标就获得 1 点通灵之魂；</li></ol></li><li><p>神运技</p></li></ul><ol><li>免疫初级负面效果，受到的反弹伤害降为 0；攻击满气势的目标，不会增加目标气势；</li><li>攻击逆克制属性的目标时，伤害不会减少；</li><li>通灵后，每次出手有 50%概率额外攻击 1 位精灵；若同时攻击敌阵所有存活的精灵（不包括处于隐身状态的精灵），则获得伤害提升 20%、暴击率提升 100%（持续 1 回合）；<br><b><font color=red>[崩甲]：降低超物防、超魔防 10%，高级负面，可叠加 6 层</font></b></li></ol><h2 id="强化推荐">强化推荐</h2><p>星神推荐：</p><ul><li>金色：战圣，连打逐风，圣战魂，诛敌不息，人品大帝，斗破苍穹，万变气吞山河</li><li>红色：战圣，千杀破云，神圣战魂，弑戮无赦，反手为攻，诛天破日</li></ul><p>天赋双星：速度/生命，超物攻</p><p>元魂：先左后右</p><p>阵型配置:</p><ul><li>PVP</li><li>PVE</li></ul><h2 id="获得打法">获得打法</h2><div class="note warning flat"><p>以下内容均来自网路，排名不分先后</p></div><div class="tag link"><a class="link-card" title="奥奇传说新手入坑玩家开荒第二期（神运黑金无敌）" href="https://www.bilibili.com/video/BV1TH4y1A7e5/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc7780"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">奥奇传说新手入坑玩家开荒第二期（神运黑金无敌）</p><p class="url">https://www.bilibili.com/video/BV1TH4y1A7e5/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc7780</p></div></a></div><div class="tag link"><a class="link-card" title="【绘梨2024新手开荒】奥奇传说神运黑金无敌新手开荒第二期" href="https://www.bilibili.com/video/BV1Sg4y1U7rC/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc77800"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">【绘梨2024新手开荒】奥奇传说神运黑金无敌新手开荒第二期</p><p class="url">https://www.bilibili.com/video/BV1Sg4y1U7rC/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc77800</p></div></a></div><div class="tag link"><a class="link-card" title="【绘梨2024新手开荒】奥奇传说神运黑金无敌新手开荒第二期" href="https://www.bilibili.com/video/BV1Sg4y1U7rC/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc77800"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">【绘梨2024新手开荒】奥奇传说神运黑金无敌新手开荒第二期</p><p class="url">https://www.bilibili.com/video/BV1Sg4y1U7rC/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc77800</p></div></a></div><div class="tag link"><a class="link-card" title="【简单】神运第1期，[神运]无上今绝·无敌贫民且稳定的攻略" href="https://www.bilibili.com/video/BV1CN411j77p?spm_id_from=333.788.recommend_more_video.7&vd_source=7759101c55d7bb5b34e48b0983bc7780"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">【简单】神运第1期，[神运]无上今绝·无敌贫民且稳定的攻略</p><p class="url">https://www.bilibili.com/video/BV1CN411j77p?spm_id_from=333.788.recommend_more_video.7&vd_source=7759101c55d7bb5b34e48b0983bc7780</p></div></a></div><div class="tag link"><a class="link-card" title="【久晨/天工开荒】神运黑金无敌 全程昆仑低配速刷" href="https://www.bilibili.com/video/BV1H4421Q7dr/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc7780"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">【久晨/天工开荒】神运黑金无敌 全程昆仑低配速刷</p><p class="url">https://www.bilibili.com/video/BV1H4421Q7dr/?spm_id_from=333.337.search-card.all.click&vd_source=7759101c55d7bb5b34e48b0983bc7780</p></div></a></div><div class="note warning flat"><p>觉得有用的话，就给以上的 up 主点个点赞关注投币三连吧！！！</p></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
