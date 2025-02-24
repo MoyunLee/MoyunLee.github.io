@@ -132,6 +132,35 @@
     
     
     <entry>
+      <title>每周大学习——《C语言程序设计（第五版）谭浩强》核心语法与实战笔记</title>
+      <link href="/posts/f7bbbd1c.html"/>
+      <url>/posts/f7bbbd1c.html</url>
+      
+        <content type="html"><![CDATA[<h1>《C 语言程序设计（第五版）谭浩强》学习笔记</h1><h2 id="第-1-章-程序设计和-C-语言">第 1 章 程序设计和 C 语言</h2><ol><li>什么是程序？什么是程序设计？</li></ol><ul><li>程序是计算机执行的指令集合。程序设计是通过逻辑分析、编码和调试构建程序的过程。</li></ul><ol start="2"><li>为什么需要计算机语言？ 高级语言有哪些特点？</li></ol><ul><li>计算机语言是控制计算机的必要工具，将人类逻辑转化为机器指令。<br>高级语言的特点包括自然语法、硬件无关性、结构化、丰富的库函数和高效率开发，使其成为现代软件开发的主流选择。</li></ul><ol start="3"><li><p>正确理解以下名词及其含义：<br>（1）源程序，目标程序，可执行程序<br>（2）程序编辑，程序编译，程序链接<br>（3）程序，程序模块，程序文件<br>（4）函数，主函数，被调用函数，库函数<br>（5）程序调试。程序测试</p></li><li><p>编写一个 C 程序，运行时输出<br>Hello World!</p></li></ol><p>这个程序是一些国外 C 教材中作为第一个程序例子介绍的，一般称为 Hello 程序。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="5"><li>编写一个 C 程序，运行时输出以下图形：</li></ol><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">******</span></span><br><span class="line"><span class="comment">  ******</span></span><br><span class="line"><span class="comment">    ******</span></span><br><span class="line"><span class="comment">      ******</span></span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;  ******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;    ******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;      ******\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="6"><li>编写一个 C 程序，运行时输入 a,b,c 三个值，输出 a,b,c 三个值中最大者。</li></ol><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>, &amp;a, &amp;b, &amp;c);</span><br><span class="line">    <span class="keyword">if</span>  (b&gt;a)</span><br><span class="line">      &#123;</span><br><span class="line">        a=b;</span><br><span class="line">      &#125;</span><br><span class="line">    <span class="keyword">if</span>(c&gt;a)</span><br><span class="line">      &#123;</span><br><span class="line">        a=c;</span><br><span class="line">      &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, a);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>答：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>, &amp;a, &amp;b, &amp;c);</span><br><span class="line">    max = a;</span><br><span class="line">    <span class="keyword">if</span> (b &gt; max)</span><br><span class="line">      max = b;</span><br><span class="line">    <span class="keyword">if</span> (c &gt; max)</span><br><span class="line">      max = c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, max);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="第-2-章-算法——程序的灵魂">第 2 章 算法——程序的灵魂</h2><ol><li>什么是算法？</li></ol><ul><li>算法是计算机程序的灵魂，它通过系统化的步骤和数学化的分析，将复杂问题转化为可执行的解决方案。无论是日常开发还是前沿技术（如机器学习），算法始终是推动技术进步的核心工具。</li></ul><ol start="2"><li>什么叫结构化的算法？为什么要提倡结构化的算法？</li></ol><ul><li>提倡结构化算法的核心原因在于其系统性、可靠性与可扩展性。它不仅是编程初学者的必修，更是工业级软件开发中保证代码质量的基石。通过结构化设计，开发者能够更高效地应对复杂问题，减少错误，并为后续优化奠定坚实基础。</li></ul><ol start="3"><li>为什么叫结构化程序设计？它的主要内容是什么？</li></ol><ul><li>结构化程序设计通过规范化的控制结构和模块化设计，使代码逻辑清晰、易于维护。其核心在于：使用三大基本结构（顺序、选择、循环）组织代码；模块化分解复杂问题；自顶向下的设计方法。它是现代编程的基石，为后续面向对象编程（OOP）和软件工程实践奠定了基础。</li></ul><h2 id="第-3-章-最简单的-C-程序设计">第 3 章 最简单的 C 程序设计</h2><ol><li>假如我国国民生产总值的年增长率为 7%，计算 10 年后我国国民生产总值与现在相比增长多少百分比。计算公式为 p = (1 + r)^n，其中 r 为年增长率，n 为年数。p 为与现在相比增长的倍数。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 每周大学习 </category>
+          
+          <category> 编程技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>青年大学习——GitHub快速入门与资源管理实战</title>
       <link href="/posts/625c7901.html"/>
       <url>/posts/625c7901.html</url>
@@ -163,37 +192,6 @@
     
     
     <entry>
-      <title>每周大学习——《C语言程序设计（第五版）谭浩强》核心语法与实战笔记</title>
-      <link href="/posts/f7bbbd1c.html"/>
-      <url>/posts/f7bbbd1c.html</url>
-      
-        <content type="html"><![CDATA[<h1>《C 语言程序设计（第五版）谭浩强》学习笔记</h1><h2 id="第-1-章-程序设计和-C-语言">第 1 章 程序设计和 C 语言</h2><ol><li>什么是程序？什么是程序设计？</li></ol><ul><li>所谓程序，就是一组计算机能识别和执行的指令。程序设计即为创建程序的过程。<br>答：程序是计算机执行的指令集合。程序设计是通过逻辑分析、编码和调试构建程序的过程。</li></ul><ol start="2"><li>为什么需要计算机语言？ 高级语言有哪些特点？</li></ol><ul><li>人和计算机交流信息也要解决语言问题，需要创造一种计算机和人都能识别的语言，这就是计算机语言。高级语言具有以下特点；非结构化的语言、结构化语言、面向对象的语言<br>答：计算机语言是控制计算机的必要工具，将人类逻辑转化为机器指令。<br>高级语言的特点包括自然语法、硬件无关性、结构化、丰富的库函数和高效率开发，使其成为现代软件开发的主流选择。</li></ul><ol start="3"><li><p>正确理解以下名词及其含义：<br>（1）源程序，目标程序，可执行程序<br>（2）程序编辑，程序编译，程序链接<br>（3）程序，程序模块，程序文件<br>（4）函数，主函数，被调用函数，库函数<br>（5）程序调试。程序测试</p></li><li><p>编写一个 C 程序，运行时输出<br>Hello World!</p></li></ol><p>这个程序是一些国外 C 教材中作为第一个程序例子介绍的，一般称为 Hello 程序。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="5"><li>编写一个 C 程序，运行时输出以下图形：</li></ol><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">******</span></span><br><span class="line"><span class="comment">  ******</span></span><br><span class="line"><span class="comment">    ******</span></span><br><span class="line"><span class="comment">      ******</span></span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;  ******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;    ******\n&quot;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;      ******\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="6"><li>编写一个 C 程序，运行时输入 a,b,c 三个值，输出 a,b,c 三个值中最大者。</li></ol><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>, &amp;a, &amp;b, &amp;c);</span><br><span class="line">    <span class="keyword">if</span>  (b&gt;a)</span><br><span class="line">      &#123;</span><br><span class="line">        a=b;</span><br><span class="line">      &#125;</span><br><span class="line">    <span class="keyword">if</span>(c&gt;a)</span><br><span class="line">      &#123;</span><br><span class="line">        a=c;</span><br><span class="line">      &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, a);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>答：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c, max;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d %d %d&quot;</span>, &amp;a, &amp;b, &amp;c);</span><br><span class="line">    max = a;</span><br><span class="line">    <span class="keyword">if</span> (b &gt; max)</span><br><span class="line">      max = b;</span><br><span class="line">    <span class="keyword">if</span> (c &gt; max)</span><br><span class="line">      max = c;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, max);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 每周大学习 </category>
-          
-          <category> 编程技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> C语言基础 </tag>
-            
-            <tag> 编程入门 </tag>
-            
-            <tag> 谭浩强教材 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
@@ -213,6 +211,35 @@
             <tag> Markdown </tag>
             
             <tag> 外挂标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C</title>
+      <link href="/posts/3dd7ffa7.html"/>
+      <url>/posts/3dd7ffa7.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="注释">注释</h2><p><strong>C 语言允许用两种注释方式：</strong></p><ol><li>以<code>//</code>开始的单行注释。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程技术 </category>
+          
+          <category> 服务端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
